@@ -20,7 +20,7 @@ export default function About() {
 
   return (
     <div>
-      <section id="section" className="beforecreate">
+      <section id="section" className="beforecreate font-fonts">
         <div className=" relative p-[100px] bg-black">
           <h2
             className="font-sans font-medium mb-7 text-white text-center text-4xl text"
@@ -36,7 +36,7 @@ export default function About() {
               protect wilderness.
             </p>
           </h2>
-          <div className=" items-center justify-center max-w-[1320px] mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-2 reveal">
+          <div className=" items-center justify-center max-w-[1320px] mx-auto grid lg:grid-cols-3 md:grid-cols-1 gap-2 reveal">
             <div className=" w-72 h-96 rounded-xl mx-auto shadow-2xl overflow-hidden">
               <div className=" bg-[url('/alaska.jpg')] w-72 h-96 bg-cover hover:scale-125 duration-1000">
                 <h1 className=" font-medium text-2xl p-10 [text-shadow:_0_3px_0_rgb(0_0_0_/_40%)] ">

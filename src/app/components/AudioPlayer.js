@@ -35,8 +35,8 @@ export default function AudioPlayer() {
     }
   }, [isPlaying, sound]);
   const { play, pause } = {
-    play: { name: "play", src: "/play.jpeg" },
-    pause: { name: "pause", src: "/pause.jpg" },
+    play: { name: "play", src: "/play.png" },
+    pause: { name: "pause", src: "/pause.png" },
   };
 
   const togglePlayPause = () => {

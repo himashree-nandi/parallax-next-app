@@ -3,7 +3,7 @@ import React from "react";
 export default function TheJournal() {
   return (
     <div>
-      <section id="thejournal" className="">
+      <section id="thejournal" className="font-fonts">
         <div className=" p-[100px] bg-black overflow-hidden relative">
           <h2
             className="font-sans font-medium mb-7 text-white text-center text-4xl text"
@@ -19,7 +19,7 @@ export default function TheJournal() {
               protect wilderness.
             </p>
           </h2>
-          <div className=" items-center justify-center max-w-[1320px] mx-auto grid lg:grid-cols-2 md:grid-cols-2 gap-2 reveal">
+          <div className=" items-center justify-center max-w-[1320px] mx-auto grid lg:grid-cols-2 md:grid-cols-1 gap-2 reveal">
             <div className=" text-center">
               <div className=" h-72 w-96 rounded-xl mx-auto shadow-2xl overflow-hidden">
                 <div className=" bg-[url('/journal1.jpg')] h-72 w-96 bg-cover hover:scale-125 duration-1000"></div>
