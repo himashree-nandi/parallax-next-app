@@ -18,7 +18,7 @@ module.exports = {
       },
     },
     fontFamily: {
-      fonts: ["MedievalSharp", "cursive"],
+      fonts: ["Merienda", "cursive"],
     },
   },
   plugins: [],

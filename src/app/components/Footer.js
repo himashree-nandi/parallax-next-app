@@ -27,13 +27,13 @@ export default function Footer() {
         </div>
         <div className=" fixed z-50 left-auto top-auto bottom-6 right-6 flex h-12">
           <a href="#" className="icon m-2">
-            <Image src={"/facebook.png"} width={40} height={10} alt="" />
+            <Image src={"/fb.png"} width={40} height={10} alt="" />
           </a>
           <a href="#" className="icon m-2">
-            <Image src={"/instagram.png"} width={40} height={10} alt="" />
+            <Image src={"/insta.png"} width={40} height={10} alt="" />
           </a>
           <a href="#" className="icon m-2">
-            <Image src={"/twitter.png"} width={40} height={10} alt="" />
+            <Image src={"/twi.png"} width={40} height={10} alt="" />
           </a>
           <a href="#" className="icon m-2">
             <Image src={"/github.png"} width={40} height={10} alt="" />
